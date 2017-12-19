@@ -1,0 +1,165 @@
+body {
+    background: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-position: center, top;
+    background-size: cover;
+    background-color: #A52A2A;
+
+    font-family: Calibri;
+    text-align: center;
+    color: #A52A2A;
+    margin: 0;
+}
+
+h1 {
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: #A52A2A;
+}
+
+ul li {
+	
+    display: inline;
+}
+
+ul {
+    margin: 0;
+    padding: 2% 0;
+    font-size: 0;
+}
+
+.menu {
+    display: inline-block;
+    width: 30%;
+}
+
+.menu_button {
+    font-size: large;
+    color: #BDC3C7;
+    padding: 2% 2%;
+}
+
+.menu_selected-button {
+    font-size: large;
+    color: #353535;
+    background-color: #B22222;
+    padding: 2% 8%;
+    pointer-events: none;
+}
+
+.menu_button:hover {
+    color: #353535;;
+    background-color: #B22222;
+}
+
+.header {
+
+   /*margin: 0px;
+    padding: 10px;
+	height: cover;
+    width: cover;
+    background: url(../images/LineMM.jpg) no-repeat;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+	
+    background-color: #353535;
+    opacity: 0.95;
+}
+
+.title {
+    text-align: left;
+    width: 68%;
+    display: inline-block;
+}
+
+.content {
+    margin-top: 5%;
+    padding: 15% 0;
+}
+
+.start-button {
+	background: url(../images/startbutton.jpg);
+	background-size: cover;
+	background-position: center, top;
+    font-size: 100%;
+    padding: 6% 11%;
+    opacity: 0.95;
+}
+
+.start-button:hover {
+	background: url(../images/startbuttonhov.jpg);
+	background-size: cover;
+	background-position: center, top;
+}
+
+.page-top {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 60%;
+    background-color: #353535;
+    opacity: 0.95;
+    padding: 2% 5%;
+    text-align: left;
+    font-size: large;
+}
+
+.page-about {
+    margin: 5%;
+    background-color: #353535;
+    opacity: 0.95;
+    padding: 4% 5%;
+    text-align: left;
+    font-size: large;
+}
+
+.image-about {
+    width: 100%;
+}
+
+.game {
+    margin: 5%;
+    /*background-color: #353535;*/
+    padding: 4% 5%;
+    font-size: large;
+    height: 500px;
+	margin: 0px;
+	background: url(../images/player.png) no-repeat;
+	-moz-background-size: cover; /* Firefox 3.6+ */
+	-webkit-background-size: cover; /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: cover; /* Opera 9.6+ */
+	background-size: cover; /* Современные браузеры */
+
+}
+
+.zombie {
+    width: 100px;
+    height: 100px;
+}
+
+.image-zombie {
+    width: 100%;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.game_over {
+    margin: 5% 20%;
+    background-color: #353535;
+    opacity: 0.95;
+    padding: 10%;
+}

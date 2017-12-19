@@ -1,0 +1,6 @@
+[{"id":"0", "name":"Sirena", "image":"images/zombies/3.png", "power":"10", "speed":"1"},
+{"id":"1", "name":"Husk", "image":"images/zombies/2.png", "power":"20", "speed":"2"},
+{"id":"2", "name":"ZDog", "image":"images/zombies/1.png", "power":"30", "speed":"3"},
+{"id":"2", "name":"Z1", "image":"images/zombies/4.png", "power":"40", "speed":"4"},
+{"id":"2", "name":"Z2", "image":"images/zombies/5.png", "power":"50", "speed":"5"},
+{"id":"2", "name":"Z3", "image":"images/zombies/6.png", "power":"60", "speed":"6"}]
